@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://windwords.github.io/friends/index.html</loc>
+    <loc>https://blog.windwords.me/friends/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://windwords.github.io/about/index.html</loc>
+    <loc>https://blog.windwords.me/about/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://windwords.github.io/rss/index.html</loc>
+    <loc>https://blog.windwords.me/rss/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://windwords.github.io/tags/index.html</loc>
+    <loc>https://blog.windwords.me/tags/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://windwords.github.io/categories/index.html</loc>
+    <loc>https://blog.windwords.me/categories/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://windwords.github.io/2021/08/hello-world/</loc>
+    <loc>https://blog.windwords.me/2021/08/hello-world/</loc>
     
     <lastmod>2021-08-15</lastmod>
     
@@ -45,7 +45,7 @@
   
 
   <url>
-    <loc>https://windwords.github.io/</loc>
+    <loc>https://blog.windwords.me/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
