@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"blog.windwords.me","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="[toc] 又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。 本文在撰写过程中参考了许多资料，感谢前辈们的贡献。">
+  <meta name="description" content="又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。 本文在撰写过程中参考了许多资料，感谢前辈们的贡献。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="NOIP笔试知识汇总">
 <meta property="og:url" content="https://blog.windwords.me/2021/08/noip-written-test/index.html">
 <meta property="og:site_name" content="windwords&#39; Blog">
-<meta property="og:description" content="[toc] 又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。 本文在撰写过程中参考了许多资料，感谢前辈们的贡献。">
+<meta property="og:description" content="又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。 本文在撰写过程中参考了许多资料，感谢前辈们的贡献。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-08-25T15:09:57.000Z">
-<meta property="article:modified_time" content="2021-08-26T02:09:42.804Z">
+<meta property="article:modified_time" content="2021-08-26T03:36:32.143Z">
 <meta property="article:author" content="windwords">
 <meta property="article:tag" content="OI">
 <meta name="twitter:card" content="summary">
@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：八月 26日 2021 10:09:42" itemprop="dateModified" datetime="2021-08-26T10:09:42+08:00">八月 26日 2021</time>
+                <time title="修改时间：八月 26日 2021 11:36:32" itemprop="dateModified" datetime="2021-08-26T11:36:32+08:00">八月 26日 2021</time>
               </span>
 
           
@@ -266,11 +266,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>[toc]</p>
-<p>又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。</p>
+        <p>又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。</p>
 <p>本文在撰写过程中参考了许多资料，感谢前辈们的贡献。</p>
 <span id="more"></span>
-<p><strong>友情提示：打开侧边栏即可查看目录，可快速跳转章节。</strong></p>
+<p><strong>友情提示：本文较长，打开侧边栏即可查看目录、快速跳转章节。</strong></p>
 <h3 id="一、基础知识"><a href="#一、基础知识" class="headerlink" title="一、基础知识"></a>一、基础知识</h3><h4 id="i-计算机历史"><a href="#i-计算机历史" class="headerlink" title="(i)计算机历史"></a>(i)计算机历史</h4><p>在此放个表格，便于速查与理解。</p>
 <div class="table-container">
 <table>
@@ -325,10 +324,25 @@
 <p>本节完。</p>
 <h4 id="ii-计算机硬件"><a href="#ii-计算机硬件" class="headerlink" title="(ii)计算机硬件"></a>(ii)计算机硬件</h4><p>计算机由<strong>存储器</strong>、<strong>运算器</strong>、<strong>控制器</strong>、<strong>输入设备</strong>和<strong>输出设备</strong>五部分组成。</p>
 <ul>
-<li>存储器的功能：<strong>存储程序和各种数据信息</strong>。</li>
-<li>运算器的功能：</li>
+<li><p>存储器的功能：<strong>存储程序和各种数据信息</strong>。</p>
+<ul>
+<li><p>存储器的大小计算方式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">8Bit = 1Byte</span><br><span class="line">1000/1024Byte = 1K(ilo)B(yte)</span><br><span class="line">1000/1024KB = 1M(ega)B(yte)</span><br><span class="line">1000/1024MB = 1G(iga)B(yte)</span><br><span class="line">1000/1024GB = 1T(era)B(yte)</span><br><span class="line">1000/1024TB = 1P(eta)B(yte)</span><br><span class="line">1000/1024PB = 1E(xa)B(yte)</span><br><span class="line">1000/1024EB = 1Z(etta)B(yte)</span><br><span class="line">1000/1024ZB = 1Y(otta)B(yte)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>存储器通常由</p>
+</li>
 </ul>
-<p>本节完</p>
+</li>
+<li><p>运算器的功能：<strong>执行各种算术和逻辑运算操作</strong>。</p>
+</li>
+<li><p>控制器的功能：<strong>指挥计算机中各部件协调工作</strong>。</p>
+</li>
+<li><p>输入设备的功能：</p>
+</li>
+<li><p>输出设备的功能：</p>
+</li>
+</ul>
+<p>本节完。</p>
 <h4 id="iii-计算机软件"><a href="#iii-计算机软件" class="headerlink" title="(iii)计算机软件"></a>(iii)计算机软件</h4><h5 id="a-操作系统"><a href="#a-操作系统" class="headerlink" title="(a)操作系统"></a>(a)操作系统</h5><p>操作系统是<strong>管理系统硬件与软件资源</strong>的程序。</p>
 <p>目前，市面上主要存在的操作系统有如下几个：</p>
 <ul>
@@ -472,7 +486,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-number">1.</span> <span class="nav-text">一、基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#i-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%86%E5%8F%B2"><span class="nav-number">1.1.</span> <span class="nav-text">(i)计算机历史</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ii-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6"><span class="nav-number">1.2.</span> <span class="nav-text">(ii)计算机硬件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iii-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.3.</span> <span class="nav-text">(iii)计算机软件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">(a)操作系统</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.3.2.</span> <span class="nav-text">(b)应用软件</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iv-NOI%E7%AB%9E%E8%B5%9B%E5%8E%86%E5%8F%B2"><span class="nav-number">1.4.</span> <span class="nav-text">(iv)NOI竞赛历史</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86"><span class="nav-number">2.</span> <span class="nav-text">二、数学知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#i-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="nav-number">2.1.</span> <span class="nav-text">(i)逻辑运算</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E9%80%BB%E8%BE%91%E4%B8%8E%EF%BC%88%E2%88%A7%EF%BC%89"><span class="nav-number">2.1.1.</span> <span class="nav-text">(a)逻辑与（∧）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E9%80%BB%E8%BE%91%E6%88%96%EF%BC%88%E2%88%A8%EF%BC%89"><span class="nav-number">2.1.2.</span> <span class="nav-text">(b)逻辑或（∨）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#c-%E6%B7%B7%E5%90%88%E8%AE%A1%E7%AE%97"><span class="nav-number">2.1.3.</span> <span class="nav-text">(c)混合计算</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86"><span class="nav-number">3.</span> <span class="nav-text">三、程序语言知识</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-text">一、基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#i-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%86%E5%8F%B2"><span class="nav-text">(i)计算机历史</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#ii-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6"><span class="nav-text">(ii)计算机硬件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iii-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6"><span class="nav-text">(iii)计算机软件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="nav-text">(a)操作系统</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6"><span class="nav-text">(b)应用软件</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iv-NOI%E7%AB%9E%E8%B5%9B%E5%8E%86%E5%8F%B2"><span class="nav-text">(iv)NOI竞赛历史</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86"><span class="nav-text">二、数学知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#i-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="nav-text">(i)逻辑运算</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E9%80%BB%E8%BE%91%E4%B8%8E%EF%BC%88%E2%88%A7%EF%BC%89"><span class="nav-text">(a)逻辑与（∧）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E9%80%BB%E8%BE%91%E6%88%96%EF%BC%88%E2%88%A8%EF%BC%89"><span class="nav-text">(b)逻辑或（∨）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#c-%E6%B7%B7%E5%90%88%E8%AE%A1%E7%AE%97"><span class="nav-text">(c)混合计算</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86"><span class="nav-text">三、程序语言知识</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

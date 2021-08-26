@@ -18,11 +18,10 @@
   <entry>
     <title>NOIP笔试知识汇总</title>
     <url>/2021/08/noip-written-test/</url>
-    <content><![CDATA[<p>[toc]</p>
-<p>又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。</p>
+    <content><![CDATA[<p>又到一年退役时，是时候写一篇初赛的汇总了，防止自己忘记。</p>
 <p>本文在撰写过程中参考了许多资料，感谢前辈们的贡献。</p>
 <span id="more"></span>
-<p><strong>友情提示：打开侧边栏即可查看目录，可快速跳转章节。</strong></p>
+<p><strong>友情提示：本文较长，打开侧边栏即可查看目录、快速跳转章节。</strong></p>
 <h3 id="一、基础知识"><a href="#一、基础知识" class="headerlink" title="一、基础知识"></a>一、基础知识</h3><h4 id="i-计算机历史"><a href="#i-计算机历史" class="headerlink" title="(i)计算机历史"></a>(i)计算机历史</h4><p>在此放个表格，便于速查与理解。</p>
 <div class="table-container">
 <table>
@@ -77,10 +76,25 @@
 <p>本节完。</p>
 <h4 id="ii-计算机硬件"><a href="#ii-计算机硬件" class="headerlink" title="(ii)计算机硬件"></a>(ii)计算机硬件</h4><p>计算机由<strong>存储器</strong>、<strong>运算器</strong>、<strong>控制器</strong>、<strong>输入设备</strong>和<strong>输出设备</strong>五部分组成。</p>
 <ul>
-<li>存储器的功能：<strong>存储程序和各种数据信息</strong>。</li>
-<li>运算器的功能：</li>
+<li><p>存储器的功能：<strong>存储程序和各种数据信息</strong>。</p>
+<ul>
+<li><p>存储器的大小计算方式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">8Bit = 1Byte</span><br><span class="line">1000/1024Byte = 1K(ilo)B(yte)</span><br><span class="line">1000/1024KB = 1M(ega)B(yte)</span><br><span class="line">1000/1024MB = 1G(iga)B(yte)</span><br><span class="line">1000/1024GB = 1T(era)B(yte)</span><br><span class="line">1000/1024TB = 1P(eta)B(yte)</span><br><span class="line">1000/1024PB = 1E(xa)B(yte)</span><br><span class="line">1000/1024EB = 1Z(etta)B(yte)</span><br><span class="line">1000/1024ZB = 1Y(otta)B(yte)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>存储器通常由</p>
+</li>
 </ul>
-<p>本节完</p>
+</li>
+<li><p>运算器的功能：<strong>执行各种算术和逻辑运算操作</strong>。</p>
+</li>
+<li><p>控制器的功能：<strong>指挥计算机中各部件协调工作</strong>。</p>
+</li>
+<li><p>输入设备的功能：</p>
+</li>
+<li><p>输出设备的功能：</p>
+</li>
+</ul>
+<p>本节完。</p>
 <h4 id="iii-计算机软件"><a href="#iii-计算机软件" class="headerlink" title="(iii)计算机软件"></a>(iii)计算机软件</h4><h5 id="a-操作系统"><a href="#a-操作系统" class="headerlink" title="(a)操作系统"></a>(a)操作系统</h5><p>操作系统是<strong>管理系统硬件与软件资源</strong>的程序。</p>
 <p>目前，市面上主要存在的操作系统有如下几个：</p>
 <ul>
