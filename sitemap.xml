@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.windwords.me/2021/08/no-more-icp-beian/</loc>
+    <loc>https://blog.windwords.me/2021/08/noip-written-test/</loc>
     
     <lastmod>2021-08-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/2021/08/noip-written-test/</loc>
+    <loc>https://blog.windwords.me/2021/08/no-more-icp-beian/</loc>
     
     <lastmod>2021-08-26</lastmod>
     
@@ -101,21 +101,28 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://blog.windwords.me/tags/OS-X/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.windwords.me/tags/%E7%94%B5%E8%84%91/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.windwords.me/tags/%E5%90%90%E6%A7%BD/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
-  
-  <url>
-    <loc>https://blog.windwords.me/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.windwords.me/categories/%E9%9A%8F%E7%AC%94/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
   <url>
     <loc>https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/</loc>
@@ -125,7 +132,7 @@
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/OI/</loc>
+    <loc>https://blog.windwords.me/categories/%E4%BF%A1%E7%AC%94%E6%B6%82%E9%B8%A6/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

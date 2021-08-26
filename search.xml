@@ -143,16 +143,23 @@
 ]]></content>
       <categories>
         <category>笔记</category>
-        <category>OI</category>
       </categories>
       <tags>
         <tag>OI</tag>
+        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
-    <title>annoying-os-x</title>
+    <title>令人恼火的OS X</title>
     <url>/2021/08/annoying-os-x/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>信笔涂鸦</category>
+      </categories>
+      <tags>
+        <tag>OS X</tag>
+        <tag>电脑</tag>
+      </tags>
   </entry>
   <entry>
     <title>不再备案｜NO MORE ICP BEIAN</title>
@@ -205,13 +212,13 @@
 <p>（完）</p>
 ]]></content>
       <categories>
-        <category>随笔</category>
-        <category>网络</category>
+        <category>信笔涂鸦</category>
       </categories>
       <tags>
         <tag>天朝</tag>
         <tag>ICP备案</tag>
         <tag>网络</tag>
+        <tag>吐槽</tag>
       </tags>
   </entry>
 </search>
