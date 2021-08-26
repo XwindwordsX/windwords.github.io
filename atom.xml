@@ -6,7 +6,7 @@
   <link href="https://blog.windwords.me/atom.xml" rel="self"/>
   
   <link href="https://blog.windwords.me/"/>
-  <updated>2021-08-26T03:36:32.143Z</updated>
+  <updated>2021-08-26T09:38:33.480Z</updated>
   <id>https://blog.windwords.me/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>annoying-os-x</title>
+    <link href="https://blog.windwords.me/2021/08/annoying-os-x/"/>
+    <id>https://blog.windwords.me/2021/08/annoying-os-x/</id>
+    <published>2021-08-26T09:38:33.000Z</published>
+    <updated>2021-08-26T09:38:33.480Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>不再备案｜NO MORE ICP BEIAN</title>
+    <link href="https://blog.windwords.me/2021/08/no-more-icp-beian/"/>
+    <id>https://blog.windwords.me/2021/08/no-more-icp-beian/</id>
+    <published>2021-08-26T09:32:07.000Z</published>
+    <updated>2021-08-26T10:13:36.982Z</updated>
+    
+    <content type="html"><![CDATA[<p>在天朝的互联网络中，有个很奇怪的制度，叫做<a href="http://www.gov.cn/gongbao/content/2005/content_93018.htm">ICP备案</a>，这项制度自从出生起，便广受争议。</p><span id="more"></span><h3 id="〇、序言"><a href="#〇、序言" class="headerlink" title="〇、序言"></a>〇、序言</h3><p>本文主要是<strong>抨击与反对ICP备案制度</strong>，如果您支持此制度，可以现在关闭网页。</p><p>如果在查看本文的过程中出现任何身体不适症状，请尽快拨打<a href="https://zh.wikipedia.org/wiki/%E7%B7%8A%E6%80%A5%E6%95%91%E9%9B%A3%E9%9B%BB%E8%A9%B1%E8%99%9F%E7%A2%BC">紧急救难电话</a>。</p><h3 id="一、ICP备案简介"><a href="#一、ICP备案简介" class="headerlink" title="一、ICP备案简介"></a>一、ICP备案简介</h3><p>在说我的观点之前，咱们先来了解一下ICP备案是个什么东西。</p><p>这是天朝政府从2005年1月28日开始实行的政策，根据天朝政府的说法，制定这个政策是<strong>为规范非经营性互联网信息服务备案及备案管理，促进互联网信息服务业的健康发展</strong>。</p><p>听起来还不错，是不？让我们往下看。</p><blockquote><p><strong>第五条</strong>　在中华人民共和国境内提供非经营性互联网信息服务，应当依法履行备案手续。<br>未经备案，<strong>不得在中华人民共和国境内从事非经营性互联网信息服务</strong>。</p><p><strong>第二十二条</strong>　违反本办法第五条的规定，未履行备案手续提供非经营性互联网信息服务的，由住所所在地省通信管理局责令限期改正，<strong>并处1万元罚款</strong>；拒不改正的，<strong>关闭网站</strong>。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在天朝的互联网络中，有个很奇怪的制度，叫做&lt;a href=&quot;http://www.gov.cn/gongbao/content/2005/content_93018.htm&quot;&gt;ICP备案&lt;/a&gt;，这项制度自从出生起，便广受争议。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.windwords.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="网络" scheme="https://blog.windwords.me/categories/%E9%9A%8F%E7%AC%94/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="天朝" scheme="https://blog.windwords.me/tags/%E5%A4%A9%E6%9C%9D/"/>
+    
+    <category term="ICP备案" scheme="https://blog.windwords.me/tags/ICP%E5%A4%87%E6%A1%88/"/>
+    
+  </entry>
   
   <entry>
     <title>NOIP笔试知识汇总</title>
