@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.windwords.me/2021/08/no-more-icp-beian/</loc>
+    
+    <lastmod>2021-08-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.windwords.me/friends/index.html</loc>
     
     <lastmod>2021-08-28</lastmod>
@@ -9,9 +16,9 @@
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/2021/08/no-more-icp-beian/</loc>
+    <loc>https://blog.windwords.me/2021/08/hello-world/</loc>
     
-    <lastmod>2021-08-27</lastmod>
+    <lastmod>2021-08-26</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>https://blog.windwords.me/about/index.html</loc>
     
     <lastmod>2021-08-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.windwords.me/2021/08/hello-world/</loc>
-    
-    <lastmod>2021-08-25</lastmod>
     
   </url>
   
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>https://blog.windwords.me/tags/%E5%A4%A9%E6%9C%9D/</loc>
+    <loc>https://blog.windwords.me/tags/OS-X/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/tags/OI/</loc>
+    <loc>https://blog.windwords.me/tags/%E7%94%B5%E8%84%91/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -102,14 +102,7 @@
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/tags/OS-X/</loc>
-    <lastmod>2021-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.windwords.me/tags/%E7%94%B5%E8%84%91/</loc>
+    <loc>https://blog.windwords.me/tags/%E5%A4%A9%E6%9C%9D/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -122,17 +115,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://blog.windwords.me/tags/OI/</loc>
+    <lastmod>2021-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.windwords.me/categories/%E4%BF%A1%E7%AC%94%E6%B6%82%E9%B8%A6/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.windwords.me/categories/%E4%BF%A1%E7%AC%94%E6%B6%82%E9%B8%A6/</loc>
+    <loc>https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
