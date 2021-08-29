@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>令人恼火的OS X</title>
-    <url>/2021/08/annoying-os-x/</url>
-    <content><![CDATA[<p>OS X曾经是一个很好用的操作系统，嗯，曾经。</p>
-<span id="more"></span>
-<p>2001年，Apple发布了OS X操作系统，在那时到后来的数十年间，它被冠以稳定、美观、易用的操作系统的称号。但是，这个操作系统仍然有大量让人恼火的缺陷，且Apple似乎并没有发现这些问题（毕竟你果常年无视用户反馈）。</p>
-]]></content>
-      <categories>
-        <category>信笔涂鸦</category>
-      </categories>
-      <tags>
-        <tag>OS X</tag>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -36,11 +21,11 @@
     <content><![CDATA[<p>在天朝的互联网络中，有个很奇怪的制度，叫做<a href="http://www.gov.cn/gongbao/content/2005/content_93018.htm">ICP备案</a>，这项制度自从出生起，便广受争议。</p>
 <span id="more"></span>
 <hr>
-<p>在说我的观点之前，咱们先来了解一下<a href="http://www.gov.cn/gongbao/content/2005/content_93018.htm">ICP备案</a>是个什么东西。</p>
+<h3 id="ICP备案简介"><a href="#ICP备案简介" class="headerlink" title="ICP备案简介"></a>ICP备案简介</h3><p>在说我的观点之前，咱们先来了解一下<a href="http://www.gov.cn/gongbao/content/2005/content_93018.htm">ICP备案</a>是个什么东西。</p>
 <p>这是天朝政府从2005年1月28日开始实行的政策，根据天朝政府的说法，制定这个政策是<strong>为规范非经营性互联网信息服务备案及备案管理，促进互联网信息服务业的健康发展</strong>。</p>
 <p>注意：这里的非经营性不代表网站不赚钱，而是是否有偿提供信息。</p>
 <hr>
-<p>可以看出来，朝廷的本意似乎是好的。「促进互联网信息服务业的健康发展」嘛。</p>
+<h3 id="朝廷的意见"><a href="#朝廷的意见" class="headerlink" title="朝廷的意见"></a>朝廷的意见</h3><p>可以看出来，朝廷的本意似乎是好的。「促进互联网信息服务业的健康发展」嘛。</p>
 <p>真的吗？让我们往下看。诶，似乎有地方不太对？</p>
 <blockquote>
 <p><strong>第五条</strong> 在中华人民共和国境内提供非经营性互联网信息服务，应当依法履行备案手续。<br>未经备案，<strong>不得在中华人民共和国境内从事非经营性互联网信息服务</strong>。</p>
@@ -49,10 +34,10 @@
 <p>可以看出，朝廷要求的备案，是<strong>强制</strong>的。如果你不愿意搞一堆麻烦事，顺便泄漏自己的隐私（政府的办事效率和对个人的隐私保护有多烂相信大家是知道滴），那么你的网站将有可能被<strong>罚款停运</strong>。</p>
 <p>另外，这个法律法规面向的群体是「所有人」，也就是说，个人用户一样要求备案。</p>
 <hr>
-<p>朝廷的文件中写了：「<strong>在中华人民共和国境内提供非经营性互联网信息服务，履行备案手续，实施备案管理，适用本办法</strong>」。这意味着，所有人（包括个人）都要进行备案。</p>
+<h3 id="我反对强制个人备案"><a href="#我反对强制个人备案" class="headerlink" title="我反对强制个人备案"></a>我反对强制个人备案</h3><p>朝廷的文件中写了：「<strong>在中华人民共和国境内提供非经营性互联网信息服务，履行备案手续，实施备案管理，适用本办法</strong>」。这意味着，所有人（包括个人）都要进行备案。</p>
 <p>企业/组织在中国境内提供非经营性互联网信息服务，那么理应备案防搞事没错，但是众多个人站长最多做个博客，一介草民能搞什么事，把朝廷推翻了不成？大多数网友还是很胆怯的，也不是有人提出个游行示威，几千人就跟着上了。</p>
 <hr>
-<p>如果一定要强制备案，那么理应提高工作效率，以方便群众。况且朝廷这份文件可白纸黑字的写着：</p>
+<h3 id="其他影响备案的因素"><a href="#其他影响备案的因素" class="headerlink" title="其他影响备案的因素"></a>其他影响备案的因素</h3><p>如果一定要强制备案，那么理应提高工作效率，以方便群众。况且朝廷这份文件可白纸黑字的写着：</p>
 <blockquote>
 <p><strong>第四条</strong> 省通信管理局在备案管理中应当遵循公开、公平、公正的原则，提供便民、优质、<strong>高效</strong>的服务。</p>
 </blockquote>
@@ -66,12 +51,11 @@
 <p>此外，天朝政府在2018年1月1日发布的《<a href="http://www.cac.gov.cn/2017-11/30/c_1122037113.htm">工业和信息化部关于规范互联网信息服务使用域名的通知</a>》中一棒子敲死了通过境外注册商注册的域名进行备案。</p>
 <p>其公布的<a href="http://xn--fiq8ituh5mn9d1qbc28lu5dusc.xn--vuq861b/">中国互联网域名体系</a>中更是减少了大量域名后缀，意味着这些后缀将再无可能进行备案（如果通过工信部批复倒可以，但是天朝什么尿性大家清楚），进一步为备案设阻。</p>
 <hr>
-<p>我的一些改进建议：</p>
-<p>对于个人网站，可改为申报而非备案，类似于先发后审，对企业/组织可强制要求备案，个人只需填写一张申报表格，简化工作流程。</p>
+<h3 id="我的一些改进建议"><a href="#我的一些改进建议" class="headerlink" title="我的一些改进建议"></a>我的一些改进建议</h3><p>对于个人网站，可改为申报而非备案，类似于先发后审，对企业/组织可强制要求备案，个人只需填写一张申报表格，简化工作流程。</p>
 <p>应允许更多域名进行备案，简化流程后相信更多人不会再抗拒备案，或者敢怒不敢言。而且这样亦可提升人民主动备案的几率。</p>
 <p>天朝在进行备案的时候需要域名所有者临时关闭WHOIS隐私保护，这可能导致隐私泄漏，可否通过其他方式（如提供账单、设置TXT记录或公证处证明等）进行域名所有者确认？</p>
 <hr>
-<p>互联网不是恐怖的洪水猛兽，它之所以被称为互联网，就是因为它互联、开放的特质。毋庸置疑的是，世界亦是在走向联合、走向开放。我们不应逆流而行开倒车，而更是应该使用一种开放、包容的心态去面对它。</p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>互联网不是恐怖的洪水猛兽，它之所以被称为互联网，就是因为它互联、开放的特质。毋庸置疑的是，世界亦是在走向联合、走向开放。我们不应逆流而行开倒车，而更是应该使用一种开放、包容的心态去面对它。</p>
 <p>====== END ======</p>
 ]]></content>
       <categories>
