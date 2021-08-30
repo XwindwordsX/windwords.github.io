@@ -6,7 +6,7 @@
   <link href="https://blog.windwords.me/atom.xml" rel="self"/>
   
   <link href="https://blog.windwords.me/"/>
-  <updated>2021-08-30T07:59:10.663Z</updated>
+  <updated>2021-08-30T14:28:06.034Z</updated>
   <id>https://blog.windwords.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.windwords.me/2021/08/add-mathjax-rendering-function/"/>
     <id>https://blog.windwords.me/2021/08/add-mathjax-rendering-function/</id>
     <published>2021-08-30T07:22:58.000Z</published>
-    <updated>2021-08-30T07:59:10.663Z</updated>
+    <updated>2021-08-30T14:28:06.034Z</updated>
     
     <content type="html"><![CDATA[<p>说起来这样的文章应该一抓一大把，不喜勿喷。 :P</p><p>咱的网志之前一直没有数学公式的渲染功能，现在搞好了写个文章记录一下。OwO</p><span id="more"></span><hr><h3 id="一、更换渲染引擎"><a href="#一、更换渲染引擎" class="headerlink" title="一、更换渲染引擎"></a>一、更换渲染引擎</h3><p>Hexo内建的渲染引擎<code>hexo-renderer-marked</code>比较菜，所以我们得换成<code>hexo-renderer-kramed</code>以支持MathJax渲染功能。</p><p>先卸载<code>hexo-renderer-marked</code>：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br></pre></td></tr></table></figure><p>然后安装<code>hexo-renderer-kramed</code>：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-mathjax --save</span><br></pre></td></tr></table></figure><p>更换引擎后，您应该执行一次<code>hexo clean</code>，再重新生成页面来使引擎生效。</p><hr><h3 id="二、安装并开启MathJax渲染功能"><a href="#二、安装并开启MathJax渲染功能" class="headerlink" title="二、安装并开启MathJax渲染功能"></a>二、安装并开启MathJax渲染功能</h3><p>接着，我们需要安装MathJax渲染插件：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-mathjax --save</span><br></pre></td></tr></table></figure><p>p.s.: 如果你之前安装过类似<code>hexo-math</code>的渲染插件的话，那么你应该先卸载它。</p><p>然后开启你主题的MathJax渲染功能，这里以我所使用的主题NexT为例：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (true) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in Front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># See: https://mhchem.github.io/MathJax-mhchem/</span></span><br><span class="line">    <span class="attr">mhchem:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><p><code>mhchem</code>这个东西是渲染化学公式的，如果不需要可以不开。上面的<code>per_page</code>是设置是否每页都启用MathJax，设为<code>true</code>需要在使用数学公式的页面配置项中加入一条<code>mathjax: true</code>，如果设为<code>false</code>，那么是每页启用MathJax，这里我设为<code>true</code>来让它加载更快点。</p><hr><h3 id="三、在文章中启用MathJax"><a href="#三、在文章中启用MathJax" class="headerlink" title="三、在文章中启用MathJax"></a>三、在文章中启用MathJax</h3><p>你需要在你的文章配置项中加入<code>mathjax: true</code>来启用MathJax渲染功能（如果你把<code>per_page</code>设为<code>false</code>，那么可以跳过这一步）：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">为Hexo网志添加MathJax渲染功能</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2021-08-30 15:22:58</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">技术</span></span><br><span class="line"><span class="attr">cagetories:</span> <span class="string">笔记</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>一切都完成了。测试下你的MathJax吧～</p><script type="math/tex; mode=display">e=mc^2</script><p>====== End ======</p>]]></content>
     
@@ -30,6 +30,8 @@
 &lt;p&gt;咱的网志之前一直没有数学公式的渲染功能，现在搞好了写个文章记录一下。OwO&lt;/p&gt;</summary>
     
     
+    
+    <category term="笔记" scheme="https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="技术" scheme="https://blog.windwords.me/tags/%E6%8A%80%E6%9C%AF/"/>

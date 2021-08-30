@@ -94,6 +94,9 @@
 <p>一切都完成了。测试下你的MathJax吧～</p>
 <script type="math/tex; mode=display">e=mc^2</script><p>====== End ======</p>
 ]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
       <tags>
         <tag>技术</tag>
       </tags>
