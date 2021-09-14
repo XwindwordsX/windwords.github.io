@@ -6,7 +6,7 @@
   <link href="https://blog.windwords.me/atom.xml" rel="self"/>
   
   <link href="https://blog.windwords.me/"/>
-  <updated>2021-09-14T07:09:42.609Z</updated>
+  <updated>2021-09-14T07:52:26.938Z</updated>
   <id>https://blog.windwords.me/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sony-z3-compact-review</title>
+    <link href="https://blog.windwords.me/2021/09/sony-z3-compact-review/"/>
+    <id>https://blog.windwords.me/2021/09/sony-z3-compact-review/</id>
+    <published>2021-09-14T07:52:26.000Z</published>
+    <updated>2021-09-14T07:52:26.938Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Vercel和CloudFlare互斥</title>
