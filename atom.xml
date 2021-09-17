@@ -6,7 +6,7 @@
   <link href="https://blog.windwords.me/atom.xml" rel="self"/>
   
   <link href="https://blog.windwords.me/"/>
-  <updated>2021-09-14T07:09:42.609Z</updated>
+  <updated>2021-09-17T08:42:09.368Z</updated>
   <id>https://blog.windwords.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高中课程笔记</title>
+    <link href="https://blog.windwords.me/2021/09/senior-high-school-course-notes/"/>
+    <id>https://blog.windwords.me/2021/09/senior-high-school-course-notes/</id>
+    <published>2021-09-17T02:35:26.000Z</published>
+    <updated>2021-09-17T08:42:09.368Z</updated>
+    
+    <content type="html"><![CDATA[<p>2021年九月，咱正式成为高中生辣。打算开个博文整理下高中的学科笔记，权当复习，也方便查询。</p><p>关于政治与历史科目：这里仅记录高中不超过教科书内的内容，不代表我的立场。</p><p>p.s. : 咱是文科生，所以物理、化学和生物这几门科目高二停止更新 :(</p><span id="more"></span><hr><h2 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h2><hr><h2 id="数学（文科）"><a href="#数学（文科）" class="headerlink" title="数学（文科）"></a>数学（文科）</h2><h3 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h3><h4 id="集合中元素的性质"><a href="#集合中元素的性质" class="headerlink" title="集合中元素的性质"></a>集合中元素的性质</h4><p><strong>我们把研究的对象统称为元素，把一些元素组成的总体叫做集合</strong></p><ul><li><p><strong>我们要求集合的定义是明确的（确定性）。</strong>即对于每个被考察的对象，它要么是这个集合的元素，要么不是这个集合的元素。比如“所有体重超过200斤的人”可以构成一个集合，而“所有胖子”则不能，因为哪些人是“胖子”，哪些人不是“胖子”并没有一个明确的标准。又比如“身高在185cm以上的人”可以构成一个集合，而“所有高个子”则不能。</p></li><li><p><strong>我们要求集合中的元素必须是互异的（互异性）。</strong>即集合中的元素不能重复出现，有重复出现元素的必定不是集合。</p></li><li><p><strong>构成集合的元素可以是无序的（无序性）。</strong>即集合内的元素可以任意以任意顺序排列。</p></li></ul><h4 id="集合的相互关系及其表示法"><a href="#集合的相互关系及其表示法" class="headerlink" title="集合的相互关系及其表示法"></a>集合的相互关系及其表示法</h4><h5 id="集合的相互关系"><a href="#集合的相互关系" class="headerlink" title="集合的相互关系"></a>集合的相互关系</h5><p>若组成集合的元素完全相同，那么，我们就说，这两个集合是<strong>相等</strong>的。若集合$ A $与集合$ B $相等，记作：$ A=B $。</p><p>若元素$ a $是集合$ A $中的一个元素，我们就说$ a $属于$ A $，记作：$ a\in A $。否则，则说$ a $不属于$ A $，记作：$ a\notin A $。</p><p>若集合$ A $的所有元素都在集合B中，我们就说“$ A $含于$ B $”或“$ B $包含于$ A $”，记作：$ A\subseteq B $。若$ A\subseteq B $且$ A\neq B $，则称$ A $是$ B $的真子集，亦称$ A $真包含于$ B $，或$ B $真包含$ A $，记作$ A\subset B $。</p><h5 id="集合的表示法"><a href="#集合的表示法" class="headerlink" title="集合的表示法"></a>集合的表示法</h5><p>集合通常用大写的拉丁字母$ A, B, C $等表示，而集合的元素通常用小写的拉丁字母$ a, b, c $等表示。</p><ul><li><p>描述法：$ \left\{2410班全体成员\right\} $、</p><ul><li><p>例子 : </p><p>问题：方程$ x^2-3x+2=0 $的解的集合</p><p>答案：$A=\left\{x\in R|x^2-3x+2=0\right\} $</p></li></ul></li><li><p>列举法：$ \left\{1, 2, ……, 10\right\} $</p><ul><li><p>例子：</p><p>问题：方程$ x^2-3x+2=0 $的解的集合</p><p>答案：$ \left\{1, 2\right\} $</p></li></ul></li></ul><p>中学阶段常用数集</p><ul><li>自然数集（非负整数集）：$ N $</li><li>正整数集：$ N^* $ 或 $ N_+ $</li><li>整数集：$ Z $</li><li>有理数集：$ Q $</li><li>实数集：$ R $</li></ul><h4 id="空集"><a href="#空集" class="headerlink" title="空集"></a>空集</h4><p>不含有任何元素的集合称为空集，记作$ \varnothing $或$ \left\{\right\} $。</p><hr><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><hr><h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><hr><h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><hr><h2 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h2><hr><h2 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h2><hr><h2 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h2><hr><h2 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h2><hr><h2 id="体育、心理、音乐与美术"><a href="#体育、心理、音乐与美术" class="headerlink" title="体育、心理、音乐与美术"></a>体育、心理、音乐与美术</h2><p>当自习课了，没听。</p><hr><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>September 17th 2021 : </p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 新建博文</span><br><span class="line">2. 添加 数学 集合相关</span><br></pre></td></tr></table></figure><hr><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><p><a href="https://www.pep.com.cn/products/jc/">人民教育出版社系列教材</a></p><p><a href="https://zh.wikibooks.org/">维基教科书</a> </p><p><a href="https://www.youtube.com/channel/UCRlT2R3ytoM-4HXc4Hc-gxw">YouTube频道：李永乐老师和他的同事们</a></p><p>====== End ======</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;2021年九月，咱正式成为高中生辣。打算开个博文整理下高中的学科笔记，权当复习，也方便查询。&lt;/p&gt;
+&lt;p&gt;关于政治与历史科目：这里仅记录高中不超过教科书内的内容，不代表我的立场。&lt;/p&gt;
+&lt;p&gt;p.s. : 咱是文科生，所以物理、化学和生物这几门科目高二停止更新 :(&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://blog.windwords.me/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Vercel和CloudFlare互斥</title>
