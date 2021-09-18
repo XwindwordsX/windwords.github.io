@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>csp-written-test</title>
-    <url>/2021/09/csp-written-test/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>为Hexo网志添加MathJax渲染功能</title>
     <url>/2021/08/add-mathjax-rendering-function/</url>
     <content><![CDATA[<p>说起来这样的文章应该一抓一大把，不喜勿喷。 :P</p>
@@ -39,18 +34,84 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/1970/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <title>CSP笔试复习</title>
+    <url>/2021/09/csp-written-test/</url>
+    <content><![CDATA[<p>又是一年退役时，继续复习CSP罢。</p>
+<p>（资料来源于网络）</p>
 <span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<hr>
+<h2 id="计算机常识"><a href="#计算机常识" class="headerlink" title="计算机常识"></a>计算机常识</h2><h3 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h3><p>完整的计算机由<strong>硬件系统</strong>和<strong>软件系统</strong>组成。</p>
+<h4 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h4><p>计算机硬件由五大部分组成：<strong>运算器、控制器、存储器、输入设备、输出设备</strong>。  </p>
+<p>其体系大概如下图：</p>
+<p><img src="https://i.loli.net/2021/09/18/jLUqlJIu2Fvf1Qg.png" alt=""></p>
+<ul>
+<li><p>CPU（中央处理器）<br>​由<strong>运算器、控制器</strong>和<strong>一些寄存器</strong>组成。CPU的主要性能指标是主频和字长。  </p>
+<ul>
+<li><p>运算器：主要功能是完成对数据的算术运算、逻辑运算和逻辑判断等操作。  </p>
+</li>
+<li><p>控制器：是整个计算机的指挥中心，根据事先给定的命令发出各种控制信号，指挥计算机各部分的工作。  </p>
+</li>
+<li><p>寄存器：主要用来存储存放指令、数据和位址。</p>
+<p>这三个部件通过CPU总线进行数据和指令的传递。  </p>
+</li>
+</ul>
+</li>
+<li><p>存储器</p>
+<p>存储器可分为<strong>主存储器（内存储器）</strong>和<strong>辅助存储器（外存储器）</strong>两类，区别为<strong>是否可以直接和CPU交换数据</strong>，内存储器速度较快，而外存储器相对速度较慢。内存储器的数据存取速度虽然很快，但与CPU相比还存在一定的差距，为了加快数据存取速度，CPU内部又增加了<strong>高速缓冲存储器（Cache）</strong>。于是<strong>Cache、内存储器和外存储器共同构成了计算机的三层存储层次结构</strong>。</p>
+<ul>
+<li><p>Cache，是为了解决CPU与主存之间速度不匹配而采用的一种技术，位于CPU与主内存之间。Cache又分一级缓存L1，二级缓存L2和三级缓存L3。</p>
+</li>
+<li><p>内存储器（RAM），属于主机的一部分。用于存放系统当前正在执行的数据和程序，属于临时存储器。</p>
+</li>
+<li><p>外存储器（ROM），属于外部设备。用于存放暂不用的数据和程序，属于永久存储器。</p>
+<p>存储器之间的关系如下图：</p>
+<p><img src="https://i.loli.net/2021/09/18/T3cEPXwi2YFysZk.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>输入设备</p>
+<p>输入设备是<strong>外界向计算机传送信息</strong>的装置。在微型计算机系统种，最常用的输入设备是<strong>键盘</strong>和<strong>鼠标</strong>。此外，还有<strong>光电笔、数字化仪、图像扫描仪、触摸屏、麦克风、视频输入设备、条形码扫描器等</strong>，也可以用<strong>磁盘</strong>和<strong>磁带</strong>进行输入。</p>
+</li>
+<li><p>输出设备</p>
+<p>输出设备的作用是<strong>将计算机中的数据信息传送到外部媒介</strong>，并转化成某种为人们所认识的表现形式。在微型计算机中，最常用的输出设备有<strong>显示器</strong>和<strong>打印机</strong>。此外，还有<strong>绘图仪</strong>等，也可以通过<strong>磁盘</strong>和<strong>磁带</strong>输出。</p>
+</li>
+<li><p>总线结构</p>
+<p>现代计算机，尤其是小型与微型计算机都发展成为总线连接，形成以总线为中心的计算机硬件系统。总线将CPU、内存储器、外存储器及输入/输出设备连接起来。总线是指能为多个功能部件提供服务的一组公用信息总线，按照总线上传输的信息不同，总线可以分为<strong>数据总线（DB）</strong>、<strong>地址总线（AB）</strong>和<strong>控制总线（CB）</strong>三种。借助总线连接，计算机可以在各部件之间实现传送地址、数据和控制信息的操作。这类计算机的主要体系结构如图：</p>
+<p><img src="https://i.loli.net/2021/09/18/cH4jwbZGmYrfvEQ.png" alt=""></p>
+<ul>
+<li><p>数据总线</p>
+<p>用来传递数据信息，它主要连接了CPU与各个部件，是他们之间交换信息的通路。数据总线是双向的，而具体的传送方向由CPU控制。</p>
+</li>
+<li><p>地址总线</p>
+<p>用来传递地址信息。CPU通过地址总线中传送的地址信息访问存储器。通常地址总线是单向的。同时，地址总线的宽度决定可以访问的存储器容量的大小，如20条地址总线可以控制1MB的存储空间。</p>
+</li>
+<li><p>控制总线</p>
+<p>用来传送控制信号，以协调各部件之间的操作，控制信号包括CPU对内存储器和接口电路的读写控制信号、中断响应信号，也包括其他部件传送给CPU的信号，如终端申请信号、准备就绪信号等。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h4><hr>
+<h2 id="CCF-OI系列竞赛常识"><a href="#CCF-OI系列竞赛常识" class="headerlink" title="CCF/OI系列竞赛常识"></a>CCF/OI系列竞赛常识</h2><h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><ul>
+<li>CCF（中国计算机学会）：中国计算机学会是中国计算机及相关领域的学术团体，宗旨是为本领域专业人士的学术和职业发展提供服务；推动学术进步和技术成果的应用；进行学术评价，引领学术方向；促进技术和产业应用一线的交流和互动；对在学术和技术方面有突出成就的个人、企业和单位给予认可和表彰。  </li>
+<li>NOI（全国青少年信息学奥林匹克竞赛）：中国计算机学会于1984年创办全国青少年计算机程序设计竞赛，即全国青少年信息学奥林匹克竞赛，是国内包括港澳在内的省级代表队最高水平的大赛。  </li>
+<li>NOIP（全国青少年信息学奥林匹克联赛）：中国计算机学会于1995年创办全国青少年信息学奥林匹克联赛。在同一时间、不同地点以各省市为单位由特派员组织。全国统一大纲、统一试卷，初、高中或其他中等专业学校的学生可报名参加。联赛分初赛和复赛，初赛考察通用和实用的计算机科学知识，以笔试为主。复赛为程序设计，须在计算机上调试完成。参加初赛者须达到一定分数线后才有资格参加复赛。联赛分普及组和提高组两个组别，难度不同，分别面向初中和高中阶段的学生。  </li>
+<li>CSP（CCF计算机软件能力认证）：中国计算机学会于2014年推出CCF计算机软件能力认证，该项认证重点考察软件开发者实际编程能力，由中国计算机学会统一命题、统一评测，委托各地设立的考试机构进行认证考试。该项认证每年大约3、9、12月各举办一次。认证者不限年龄，不限学历，不限报考次数，不限国籍 ，在报名官网注册账户后均可报名参加认证。  </li>
+<li>IOI（国际信息学奥林匹克竞赛）：国际信息学奥林匹克竞赛，是面向中学生一年一度的信息学科竞赛。第一届国际信息学奥林匹克竞赛于1989年在保加利亚的布拉维茨举行。这项竞赛包含两天的计算机程序设计，主要编程语言以C++为主，解决各类算法问题。选手以个人为单位，每个国家最多可选派4名选手参加。参赛选手从各国相应计算机竞赛中选拔。  </li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DMCA删除通知</title>
+    <url>/1970/01/dmca-takedown-notice/</url>
+    <content><![CDATA[<p>此页面用于记录DMCA删除通知。<br><span id="more"></span></p>
 ]]></content>
   </entry>
   <entry>
@@ -107,15 +168,15 @@
       </tags>
   </entry>
   <entry>
-    <title>guide-to-submitting-a-dmca-takedown-notice</title>
-    <url>/2021/09/guide-to-submitting-a-dmca-takedown-notice/</url>
+    <title>提交DMCA删除通知指南</title>
+    <url>/1970/01/guide-to-submitting-a-dmca-takedown-notice/</url>
     <content><![CDATA[<p>以下内容旨在帮助您向我提交DMCA删除通知。</p>
 <p>注意：您<strong>必须</strong>详细阅读本页面中的内容后按格式提交，格式错误的通知将不予回复。</p>
 <span id="more"></span>
 <hr>
 <h2 id="在开始之前"><a href="#在开始之前" class="headerlink" title="在开始之前"></a>在开始之前</h2><p>建议先进行以下行为：</p>
 <ul>
-<li><strong>说实话。</strong>DMCA 要求您对版权投诉中陈述的事实宣誓。</li>
+<li><strong>说实话。</strong>DMCA要求您对版权投诉中陈述的事实宣誓。</li>
 <li><strong>调查。</strong>DMCA是一种严重的法律指控，会对真实的人造成真正的后果。</li>
 <li><strong>先问清。</strong>在您提交DMCA前，我恳请您先与我联络，我们可以先尝试通过协商解决问题。</li>
 <li><strong>发送正确的请求。</strong>仅接受针对受版权保护的作品并且标识出具体版权作品的 DMCA 删除通知。</li>
@@ -124,9 +185,9 @@
 <ul>
 <li><strong>不要使用自动程序。</strong>提交请求者应是真实的人。如果您使用自动程序提交大量的相同请求，我的邮件系统可能会将其归类为垃圾邮件，这会降低处理速度。</li>
 <li><strong>版权问题难以确定。</strong>确定特定作品是否受版权保护可能很难。因此，如果您对内容是否受保护存有疑问，应咨询律师。</li>
-<li><strong>您的投诉将被公布。</strong>对于所有DMCA删除通知（无论是否受理）我们都会将其公布于<a href="https://blog.windword.me/dmca-takedown-notice">此页面</a>。</li>
+<li><strong>您的投诉将被公布。</strong>对于所有DMCA删除通知（无论是否受理）我们都会将其公布于<a href="https://blog.windword.me/1970/01/dmca-takedown-notice/">此页面</a>。</li>
 </ul>
-<h2 id="正式提交DMCA删除请求"><a href="#正式提交DMCA删除请求" class="headerlink" title="正式提交DMCA删除请求"></a>正式提交DMCA删除请求</h2><h3 id="请求格式"><a href="#请求格式" class="headerlink" title="请求格式"></a>请求格式</h3><ol>
+<h2 id="提交DMCA删除请求"><a href="#提交DMCA删除请求" class="headerlink" title="提交DMCA删除请求"></a>提交DMCA删除请求</h2><h3 id="请求格式"><a href="#请求格式" class="headerlink" title="请求格式"></a>请求格式</h3><ol>
 <li><p><strong>在开头处加入此声明：</strong> </p>
 <blockquote>
 <p>我已完整阅读并理解windwords’ Blog的《提交DMCA删除通知指南》。我坚信，在侵权页面上使用上述版权材料，未经版权所有者、其代理人或法律的授权。 我已考虑合理使用的情况。</p>
@@ -173,16 +234,16 @@
 <p>windwords’ Blog将于两周内处理您的请求。</p>
 <h3 id="DMCA删除请求示例"><a href="#DMCA删除请求示例" class="headerlink" title="DMCA删除请求示例"></a>DMCA删除请求示例</h3><p>示例中的替换词：</p>
 <ul>
-<li>[email]代表 电子邮件</li>
-<li>[link]代表 链接</li>
-<li>[phone number]代表 电话号码</li>
-<li>[name]代表 姓名</li>
-<li>[address]代表 地址</li>
-<li>[date]代表 日期</li>
-<li>[signature]代表 签名</li>
+<li><code>[email]</code>代表 电子邮件</li>
+<li><code>[link]</code>代表 链接</li>
+<li><code>[phone number]</code>代表 电话号码</li>
+<li><code>[name]</code>代表 姓名</li>
+<li><code>[address]</code>代表 地址</li>
+<li><code>[date]</code>代表 日期</li>
+<li><code>[signature]</code>代表 签名</li>
 </ul>
 <blockquote>
-<p>From : [email]</p>
+<p>From : <code>[email]</code></p>
 <p>To : <a href="mailto:windwords001@icloud.com">windwords001@icloud.com</a></p>
 <p>Subject : DMCA TAKEDOWN NOTICE</p>
 <p>======</p>
@@ -190,33 +251,33 @@
 <p>本人谨此宣誓，本通知中的信息准确无误，对于涉嫌受到侵犯之专有权，本人是版权所有者或所有者的授权代表，如有不实，愿接受伪证处罚 。</p>
 <p>被侵权内容：</p>
 <ul>
-<li>[link]</li>
-<li>[link]</li>
-<li>[link]</li>
+<li><code>[link]</code></li>
+<li><code>[link]</code></li>
+<li><code>[link]</code></li>
 </ul>
 <p>侵权内容：</p>
 <ul>
-<li>[link]</li>
-<li>[link]</li>
-<li>[link]</li>
+<li><code>[link]</code></li>
+<li><code>[link]</code></li>
+<li><code>[link]</code></li>
 </ul>
 <p>windwords’ Blog应采取的补救措施：</p>
 <ul>
-<li>删除[link]。</li>
-<li>删除[link]的第x段。</li>
-<li>在[link]中加入版权声明。</li>
+<li>删除<code>[link]</code>。</li>
+<li>删除<code>[link]</code>的第x段。</li>
+<li>在<code>[link]</code>中加入版权声明。</li>
 </ul>
 <p>联络方式：</p>
 <ul>
-<li>[email]</li>
-<li>[phone number]</li>
-<li>[name]</li>
-<li>[address]</li>
+<li><code>[email]</code></li>
+<li><code>[phone number]</code></li>
+<li><code>[name]</code></li>
+<li><code>[address]</code></li>
 </ul>
 <p>Sincerely,</p>
-<p>[name]</p>
-<p>[date]</p>
-<p>[signature]</p>
+<p><code>[name]</code></p>
+<p><code>[date]</code></p>
+<p><code>[signature]</code></p>
 </blockquote>
 ]]></content>
   </entry>
@@ -310,6 +371,21 @@
         <tag>网络</tag>
         <tag>吐槽</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/1970/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>高中课程笔记</title>
