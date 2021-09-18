@@ -37,7 +37,6 @@
     <title>CSP笔试复习</title>
     <url>/2021/09/csp-written-test/</url>
     <content><![CDATA[<p>又是一年退役时，继续复习CSP罢。</p>
-<p>（资料来源于网络）</p>
 <span id="more"></span>
 <hr>
 <h2 id="计算机常识"><a href="#计算机常识" class="headerlink" title="计算机常识"></a>计算机常识</h2><h3 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h3><p>完整的计算机由<strong>硬件系统</strong>和<strong>软件系统</strong>组成。</p>
@@ -91,7 +90,39 @@
 </ul>
 </li>
 </ul>
-<h4 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h4><hr>
+<h4 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h4><p>计算机软件主要分为<strong>系统软件</strong>和<strong>应用软件</strong>。</p>
+<h5 id="系统软件"><a href="#系统软件" class="headerlink" title="系统软件"></a>系统软件</h5><p>以下内容均来源中文维基百科。链接打不开，请翻墙。</p>
+<ul>
+<li><p><a href="https://zh.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows（微软视窗系统）</a></p>
+<p><strong>Microsoft Windows</strong>，是<a href="https://zh.wikipedia.org/wiki/微軟公司">微软公司</a>以<a href="https://zh.wikipedia.org/wiki/图形用户界面">图形用户界面</a>为主推出的一系列<a href="https://zh.wikipedia.org/wiki/专有软件">专有</a><a href="https://zh.wikipedia.org/wiki/商業軟體">商业软件</a><a href="https://zh.wikipedia.org/wiki/操作系统">操作系统</a>。其问世时间为1985年，起初为运行于<a href="https://zh.wikipedia.org/wiki/MS-DOS">MS-DOS</a>之下的桌面环境，其后续版本逐渐发展成为主要为<a href="https://zh.wikipedia.org/wiki/個人電腦">个人电脑</a>和<a href="https://zh.wikipedia.org/wiki/服务器">服务器</a>用户设计的操作系统，并最终获得了世界个人电脑操作系统的垄断地位。此操作系统可以在几种不同类型的平台上运行，如个人电脑（PC）、移动设备、服务器（Server）和嵌入式系统等等，其中在个人电脑的领域应用内最为普遍。在2004年<a href="https://zh.wikipedia.org/wiki/國際數據資訊公司">国际数据信息公司</a>一次有关未来发展趋势的会议上，副董事长Avneesh Saxena宣布Windows拥有终端操作系统大约70%的市场份额。</p>
+</li>
+<li><p><a href="https://zh.wikipedia.org/wiki/MacOS">Apple macOS（苹果麦金塔系统）</a></p>
+<p><strong>macOS</strong> 是 1999 年发行的 <a href="https://zh.wikipedia.org/wiki/Classic_Mac_OS">Classic Mac OS</a> 最终版本 <a href="https://zh.wikipedia.org/wiki/Mac_OS_9">Mac OS 9</a> 的后继者。1999 年发布 <a href="https://zh.wikipedia.org/wiki/MacOS_Server">macOS Server</a> 的首个版本 <a href="https://zh.wikipedia.org/wiki/Mac_OS_X_Server_1.0">Mac OS X Server 1.0</a>，桌面版 Mac OS X 10.0“Cheetah”于 2001 年 3 月 24 日发布。2012 年苹果将 Mac OS X 更名为 <strong>OS X</strong>，第一个使用此命名的系统为“<a href="https://zh.wikipedia.org/wiki/OS_X_Mountain_Lion">OS X Mountain Lion</a>”。以前版本的 macOS 以大型猫科动物命名，例如 Mac OS X v10.8 被称为“Mountain Lion”，但随着 2013 年 6 月 <a href="https://zh.wikipedia.org/wiki/OS_X_Mavericks">OS X Mavericks</a> 的公布，命名开始采用加州地标。2016 年 6 月，苹果公司宣布 OS X 更名为<strong>macOS</strong>，以便与苹果其他操作系统 <a href="https://zh.wikipedia.org/wiki/IOS">iOS</a>、<a href="https://zh.wikipedia.org/wiki/WatchOS">watchOS</a> 和 <a href="https://zh.wikipedia.org/wiki/TvOS">tvOS</a> 保持统一的命名风格。最新版本 <a href="https://zh.wikipedia.org/wiki/MacOS_Big_Sur">macOS Big Sur</a> 已于 2020 年 6 月 23 日发布，也在今年的<a href="https://zh.wikipedia.org/w/index.php?title=WWDC21&amp;action=edit&amp;redlink=1">WWDC21</a>发布了<a href="https://zh.wikipedia.org/wiki/MacOS_Monterey">macOS Monterey</a>。</p>
+<p><strong>严格来说，macOS是UNIX的一种。</strong></p>
+</li>
+<li><p><a href="https://zh.wikipedia.org/wiki/Linux">Linux（林纳克斯系统）</a></p>
+<p><strong>Linux</strong>是一种<a href="https://zh.wikipedia.org/wiki/自由及开放源代码软件">自由和开放源码</a>的<a href="https://zh.wikipedia.org/wiki/类Unix系统">类UNIX</a><a href="https://zh.wikipedia.org/wiki/作業系統">操作系统</a>。该操作系统的<a href="https://zh.wikipedia.org/wiki/内核">内核</a>由<a href="https://zh.wikipedia.org/wiki/林纳斯·托瓦兹">林纳斯·托瓦兹</a>在1991年10月5日首次发布，在加上<a href="https://zh.wikipedia.org/wiki/使用者空間">用户空间</a>的<a href="https://zh.wikipedia.org/wiki/應用程式">应用程序</a>之后，成为Linux操作系统。Linux也是<a href="https://zh.wikipedia.org/wiki/自由软件">自由软件</a>和<a href="https://zh.wikipedia.org/wiki/开放源代码软件">开放源代码软件</a>发展中最著名的例子。只要遵循<a href="https://zh.wikipedia.org/wiki/GNU通用公共许可证">GNU 通用公共许可证</a>（GPL），任何个人和机构都可以自由地使用Linux的所有底层<a href="https://zh.wikipedia.org/wiki/源代码">源代码</a>，也可以自由地修改和再发布。大多数Linux系统还包括像提供<a href="https://zh.wikipedia.org/wiki/GUI">GUI</a>的<a href="https://zh.wikipedia.org/wiki/X_Window">X Window</a>之类的程序。除了一部分专家之外，大多数人都是直接使用<a href="https://zh.wikipedia.org/wiki/Linux發行版">Linux 发行版</a>，而不是自己选择每一样组件或自行设置。</p>
+<p><strong>严格来说，Linux单指Linux操作系统的内核。</strong></p>
+</li>
+<li><p><a href="https://zh.wikipedia.org/wiki/UNIX">UNIX（非复用信息和计算机服务系统）</a></p>
+<p><strong>UNIX</strong>，一种多用户、多进程的计算机<a href="https://zh.wikipedia.org/wiki/操作系统">操作系统</a>，源自于从20世纪70年代开始在美国<a href="https://zh.wikipedia.org/wiki/AT%26T">AT&amp;T</a>公司的<a href="https://zh.wikipedia.org/wiki/贝尔实验室">贝尔实验室</a>开发的<a href="https://zh.wikipedia.org/wiki/AT%26T">AT&amp;T</a> UNIX。</p>
+<p>以下操作系统也属于UNIX：</p>
+<ul>
+<li>Oracle Solaris</li>
+<li>IBM AIX</li>
+<li>HP-UX</li>
+<li>MINIX</li>
+<li>macOS</li>
+<li>Reliant UNIX（SINIX）</li>
+<li>SCO</li>
+<li>Tru64 UNIX</li>
+<li>K-UX</li>
+<li>z/OS</li>
+<li>EulerOS</li>
+</ul>
+</li>
+</ul>
+<h5 id="应用软件"><a href="#应用软件" class="headerlink" title="应用软件"></a>应用软件</h5><hr>
 <h2 id="CCF-OI系列竞赛常识"><a href="#CCF-OI系列竞赛常识" class="headerlink" title="CCF/OI系列竞赛常识"></a>CCF/OI系列竞赛常识</h2><h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><ul>
 <li>CCF（中国计算机学会）：中国计算机学会是中国计算机及相关领域的学术团体，宗旨是为本领域专业人士的学术和职业发展提供服务；推动学术进步和技术成果的应用；进行学术评价，引领学术方向；促进技术和产业应用一线的交流和互动；对在学术和技术方面有突出成就的个人、企业和单位给予认可和表彰。  </li>
 <li>NOI（全国青少年信息学奥林匹克竞赛）：中国计算机学会于1984年创办全国青少年计算机程序设计竞赛，即全国青少年信息学奥林匹克竞赛，是国内包括港澳在内的省级代表队最高水平的大赛。  </li>
@@ -99,7 +130,9 @@
 <li>CSP（CCF计算机软件能力认证）：中国计算机学会于2014年推出CCF计算机软件能力认证，该项认证重点考察软件开发者实际编程能力，由中国计算机学会统一命题、统一评测，委托各地设立的考试机构进行认证考试。该项认证每年大约3、9、12月各举办一次。认证者不限年龄，不限学历，不限报考次数，不限国籍 ，在报名官网注册账户后均可报名参加认证。  </li>
 <li>IOI（国际信息学奥林匹克竞赛）：国际信息学奥林匹克竞赛，是面向中学生一年一度的信息学科竞赛。第一届国际信息学奥林匹克竞赛于1989年在保加利亚的布拉维茨举行。这项竞赛包含两天的计算机程序设计，主要编程语言以C++为主，解决各类算法问题。选手以个人为单位，每个国家最多可选派4名选手参加。参赛选手从各国相应计算机竞赛中选拔。  </li>
 </ul>
-<hr>
+<h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><hr>
+<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>不写了，太多了，草！</p>
+<p>====== End ======</p>
 ]]></content>
       <categories>
         <category>笔记</category>
