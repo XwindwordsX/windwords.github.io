@@ -458,7 +458,7 @@
 </li>
 </ul>
 </li>
-<li><p>图示法：</p>
+<li><p>自然语言法</p>
 </li>
 </ul>
 <p>中学阶段常用数集</p>
@@ -470,14 +470,14 @@
 <li>实数集：$ R $</li>
 </ul>
 <h4 id="空集"><a href="#空集" class="headerlink" title="空集"></a>空集</h4><p>不含有任何元素的集合称为空集，记作$ \emptyset $或$ \left\{\right\} $。</p>
+<p>空集是任何集合（包括空集）的子集。</p>
 <hr>
 <h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><hr>
 <h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><hr>
 <h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><hr>
 <h2 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h2><hr>
-<h2 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h2><h2 id="Formula-collection"><a href="#Formula-collection" class="headerlink" title="Formula collection"></a>Formula collection</h2><p>此处记录高一物理的所有公式。</p>
-<ul>
-<li>速度相关<ul>
+<h2 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h2><h3 id="Formula-collection"><a href="#Formula-collection" class="headerlink" title="Formula collection"></a>Formula collection</h3><p>此处记录高一物理的所有公式。</p>
+<h4 id="速度相关"><a href="#速度相关" class="headerlink" title="速度相关"></a>速度相关</h4><ul>
 <li>匀变速直线运动四个基本公式：<ul>
 <li>速度与时间的关系公式：$ vt=v_0+at $</li>
 <li>位移与时间的关系公式：$ s=v_0t+\frac 12at^2 $</li>
@@ -486,15 +486,11 @@
 </ul>
 </li>
 </ul>
-</li>
-</ul>
 <hr>
-<h2 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h2><h2 id="Formula-collection-1"><a href="#Formula-collection-1" class="headerlink" title="Formula collection"></a>Formula collection</h2><p>此处记录高一化学的所有公式。</p>
+<h2 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h2><h3 id="Formula-collection-1"><a href="#Formula-collection-1" class="headerlink" title="Formula collection"></a>Formula collection</h3><p>此处记录高一化学的所有公式。</p>
 <p>因为<code>mhchem</code>的一些限制（等于号上面不能插入条件），此处公式中的$ = $均改为$ \ce{-&gt;} $，但是公式均已配平。</p>
 <p>在一个化学公式存在多种情况时，会使用无序列表；当其按照顺序发生时，不使用列表，但按照发生顺序依次换行。</p>
-<ul>
-<li><p>$ \ce{Na} $（钠）</p>
-<ul>
+<h4 id="Na（钠）"><a href="#Na（钠）" class="headerlink" title="Na（钠）"></a>Na（钠）</h4><ul>
 <li><p>钠与水反应：$ \ce{2Na + H2O-&gt;2NaOH + H2} $</p>
 </li>
 <li><p>钠与空气反应：</p>
@@ -513,7 +509,7 @@
 <li><p>钠在空气中变质过程：</p>
 <p>$ \ce{4Na + O2 -&gt; 2Na2O} $</p>
 <p>$ \ce{Na2O + H2O -&gt; 2NaOH} $</p>
-<p>$ \ce{2NaOH + CO2 + 9H2O -&gt; Na2CO3.10H2)} $</p>
+<p>$ \ce{2NaOH + CO2 + 9H2O -&gt; Na2CO3.10H2O} $</p>
 <p>$ \ce{Na2CO3.10H2O -&gt; Na2CO3 + H2O} $（风化）</p>
 </li>
 <li><p>氧化钠与水反应：$ \ce{Na2O + H2O -&gt; 2NaOH} $</p>
@@ -538,12 +534,13 @@
 <p>$ \ce{Na2O2 + 2H2O -&gt; 4NaOH + O2 ^} $</p>
 <p>$ \ce{3NaOH + FeCl3 -&gt; Fe(OH)3 v + 3NaCl} $</p>
 </li>
-</ul>
+<li><p>碳酸钠与氢氧化钠反应：</p>
 </li>
 </ul>
-<hr>
+<h4 id="Cl₂（氯气）"><a href="#Cl₂（氯气）" class="headerlink" title="Cl₂（氯气）"></a>Cl₂（氯气）</h4><hr>
 <h2 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h2><hr>
 <h2 id="体育、心理、音乐与美术"><a href="#体育、心理、音乐与美术" class="headerlink" title="体育、心理、音乐与美术"></a>体育、心理、音乐与美术</h2><p>当自习课了，没听。</p>
+<p>略。</p>
 <hr>
 <h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>September 17th 2021 : </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 新建博文</span><br><span class="line">2. 添加 数学 集合相关</span><br></pre></td></tr></table></figure>
@@ -554,6 +551,7 @@
 <p><a href="https://zh.wikibooks.org/">维基教科书</a> </p>
 <p><a href="https://www.youtube.com/channel/UCRlT2R3ytoM-4HXc4Hc-gxw">YouTube频道：李永乐老师和他的同事们</a></p>
 <hr>
+<h2 id="笔者想说的话"><a href="#笔者想说的话" class="headerlink" title="笔者想说的话"></a>笔者想说的话</h2><p>咱也只是普通的文科学生，没法做到十全十美。这篇文章肯定有所疏漏，欢迎您指出错误。</p>
 <p>但愿我所记下的每一笔，都能为后来人提供帮助。</p>
 <p>====== End ======</p>
 ]]></content>
