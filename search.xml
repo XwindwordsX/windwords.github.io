@@ -332,11 +332,11 @@
 <h2 id="事情是如何发生的"><a href="#事情是如何发生的" class="headerlink" title="事情是如何发生的"></a>事情是如何发生的</h2><p>自从用Vercel自动部署博客开始，一直收到这样的邮件：</p>
 <blockquote>
 <p>From : <a href="mailto:system@vercel.com">system@vercel.com</a></p>
-<p>To : <a href="mailto:system@vercel.com">system@vercel.com</a></p>
+<p>To : <a href="mailto:windwords001@icloud.com">windwords001@icloud.com</a></p>
 <p>Subject : Your domain blog.windwords.me needs to be configured</p>
 <p>======</p>
 <p><strong>Invalid Domain Configuration</strong></p>
-<p>Hi windwords,You have added the Domain blog.windwords.me to the Project <a href="https://vercel.com/windwords/windwords-github-io">windwords-github-io</a> on <a href="https://vercel.com/">Vercel</a> but it needs to be configured.</p>
+<p>Hi windwords,You have added the Domain blog.windwords.me to the Project <a href="https://vercel.com/windwords/blog">blog</a> on <a href="https://vercel.com/">Vercel</a> but it needs to be configured.</p>
 <p>To configure the Domain, set the following record on your DNS provider (recommended):</p>
 <blockquote>
 <p><code>name type  value</code></p>
@@ -487,18 +487,21 @@
 <h2 id="地理"><a href="#地理" class="headerlink" title="地理"></a>地理</h2><hr>
 <h2 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h2><h3 id="Formula-collection"><a href="#Formula-collection" class="headerlink" title="Formula collection"></a>Formula collection</h3><p>此处记录高一物理的所有公式。</p>
 <h4 id="速度相关"><a href="#速度相关" class="headerlink" title="速度相关"></a>速度相关</h4><ul>
-<li>匀变速直线运动四个基本公式：<ul>
-<li>速度与时间的关系公式：$ vt=v_0+at $</li>
-<li>位移与时间的关系公式：$ s=v_0t+\frac 12at^2 $</li>
-<li>位移与速度的关系公式：$ 2as=vt^2-v_0^2 $</li>
-<li>位移变化量与时间的关系公式：$ \Delta x=aT^2 $</li>
+<li><p>匀变速直线运动四个基本公式：</p>
+<p>其中$ a $为加速度，$ v_0 $为<a href="https://baike.baidu.com/item/初速度">初速度</a>，$ v $为末速度，$ t $为该过程所用时间，$ x $为该过程中的位移。</p>
+<p>$ \Delta x $代表相邻相等时间段内位移差，$ T $代表相邻相等时间段的时间长度</p>
+<ul>
+<li>速度时间公式：$ v=v_0+at $</li>
+<li>位移-时间公式：$ x=v_0t+\frac 12at^2 $</li>
+<li>速度-位移公式：$ vt^2-v_0^2=2ax $</li>
+<li>位移变化量-时间公式：$ \Delta x=aT^2 $</li>
 </ul>
 </li>
 </ul>
 <hr>
 <h2 id="化学"><a href="#化学" class="headerlink" title="化学"></a>化学</h2><h3 id="Formula-collection-1"><a href="#Formula-collection-1" class="headerlink" title="Formula collection"></a>Formula collection</h3><p>此处记录高一化学的所有公式。</p>
-<p>因为<code>mhchem</code>的一些限制（等于号上面不能插入条件），此处公式中的$ = $均改为$ \ce{-&gt;} $，但是公式均已配平。</p>
 <p>在一个化学公式存在多种情况时，会使用无序列表；当其按照顺序发生时，不使用列表，但按照发生顺序依次换行。</p>
+<p>因为<code>mhchem</code>插件的一些限制，这里的$ \ce{=} $全部改为$ \ce{-&gt;} $，方程式本身已配平。</p>
 <h4 id="Na（钠）"><a href="#Na（钠）" class="headerlink" title="Na（钠）"></a>Na（钠）</h4><ul>
 <li><p>钠与水反应：$ \ce{2Na + H2O-&gt;2NaOH + H2} $</p>
 </li>
@@ -548,9 +551,6 @@
 </ul>
 <h4 id="Cl₂（氯气）"><a href="#Cl₂（氯气）" class="headerlink" title="Cl₂（氯气）"></a>Cl₂（氯气）</h4><hr>
 <h2 id="生物"><a href="#生物" class="headerlink" title="生物"></a>生物</h2><hr>
-<h2 id="体育、心理、音乐与美术"><a href="#体育、心理、音乐与美术" class="headerlink" title="体育、心理、音乐与美术"></a>体育、心理、音乐与美术</h2><p>当自习课了，没听。</p>
-<p>略。</p>
-<hr>
 <h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>September 17th 2021 : </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 新建博文</span><br><span class="line">2. 添加 数学 集合相关</span><br></pre></td></tr></table></figure>
 <p>September 21st 2021：</p>
