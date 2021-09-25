@@ -357,7 +357,7 @@
 <p>邮件里说我未设置CNAME记录，但是既然能访问，我显然是设置了的。</p>
 <p>于是我去信询问为何一直这样报错（无视我的垃圾英语水平 &gt;_&lt;）：</p>
 <blockquote>
-<p>From : windwords001@icloud.com</p>
+<p>From : <a href="mailto:windwords001@icloud.com">windwords001@icloud.com</a></p>
 <p>To : <a href="mailto:support@vercel.com">support@vercel.com</a></p>
 <p>Subject : Re: Your domain blog.windwords.me needs to be configured</p>
 <p>======</p>
@@ -374,7 +374,7 @@
 <h2 id="Vercel的回应"><a href="#Vercel的回应" class="headerlink" title="Vercel的回应"></a>Vercel的回应</h2><p>过了一天左右，收到了这样的回复：</p>
 <blockquote>
 <p>From : <a href="mailto:support@vercel.com">support@vercel.com</a></p>
-<p>To : windwords001@icloud.com</p>
+<p>To : <a href="mailto:windwords001@icloud.com">windwords001@icloud.com</a></p>
 <p>Subject : RE: Re: Your domain blog.windwords.me needs to be configured</p>
 <p>======</p>
 <p>Hi there,</p>
@@ -392,7 +392,7 @@
 <p><strong>Without Proxy</strong></p>
 <p><code>(* * *)</code></p>
 <p><strong>With Proxy</strong></p>
-<p>A Cloudflare proxy works as an intermediary between your domain and Vercel, which is the hosting provider. <strong>We don’t recommend that you enable the Cloudflare proxy unless you have specific constraints for your project since it will introduce a minor performance penalty to your website due to the additional hop.</strong> You need to insert a CNAME record with the value <code>cname.vercel-dns.com</code>or an A record with the value <code>76.76.21.21</code>.</p>
+<p>A Cloudflare proxy works as an intermediary between your domain and Vercel, which is the hosting provider. We don’t recommend that you enable the Cloudflare proxy unless you have specific constraints for your project since it will introduce a minor performance penalty to your website due to the additional hop. You need to insert a CNAME record with the value <code>cname.vercel-dns.com</code>or an A record with the value <code>76.76.21.21</code>.</p>
 <p>It is <strong>highly recommended</strong> that you don’t use the Cloudflare CDN with Vercel. When new deployments are created, the Vercel platform is unable to purge the content cached on Cloudflare. If your visitors load a cached <code>/index.html</code> requiring <code>/static/script-abc.js</code>, but this file is missing both in the new deployment and the Cloudflare CDN, the website will break. Therefore, turning off the Cloudflare CDN for pages is recommended to avoid any breakage. Please refer to the <a href="https://support.cloudflare.com/hc/en-us/articles/202775670-Customizing-Cloudflare-s-cache">Cloudflare documentation</a> for further information.</p>
 <p><code>(* * *)</code></p>
 </blockquote>
