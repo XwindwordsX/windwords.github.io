@@ -37,6 +37,7 @@
 ]]></content>
       <categories>
         <category>笔记</category>
+        <category>网络</category>
       </categories>
       <tags>
         <tag>技术</tag>
@@ -144,6 +145,7 @@
 ]]></content>
       <categories>
         <category>笔记</category>
+        <category>考试</category>
       </categories>
       <tags>
         <tag>OI</tag>
@@ -154,6 +156,9 @@
     <url>/1970/01/dmca-takedown-notice/</url>
     <content><![CDATA[<p>此页面用于记录DMCA删除通知。<br><span id="more"></span></p>
 ]]></content>
+      <categories>
+        <category>特殊页面</category>
+      </categories>
   </entry>
   <entry>
     <title>不再备案｜NO MORE ICP BEIAN</title>
@@ -200,6 +205,7 @@
 ]]></content>
       <categories>
         <category>信笔涂鸦</category>
+        <category>吐槽</category>
       </categories>
       <tags>
         <tag>ICP备案</tag>
@@ -321,6 +327,9 @@
 <p><code>[signature]</code></p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>特殊页面</category>
+      </categories>
   </entry>
   <entry>
     <title>Vercel和CloudFlare互斥</title>
@@ -407,6 +416,7 @@
 ]]></content>
       <categories>
         <category>信笔涂鸦</category>
+        <category>网络</category>
       </categories>
       <tags>
         <tag>网络</tag>
@@ -427,6 +437,9 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>特殊页面</category>
+      </categories>
   </entry>
   <entry>
     <title>高中课程笔记</title>
@@ -566,6 +579,7 @@
 ]]></content>
       <categories>
         <category>笔记</category>
+        <category>考试</category>
       </categories>
   </entry>
 </search>
