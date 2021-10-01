@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.windwords.me/2021/09/csp-written-test/</loc>
+    <lastmod>2021-09-30</lastmod>
+  </url>
+  <url>
     <loc>https://blog.windwords.me/2021/09/vercel-and-cloudflare/</loc>
     <lastmod>2021-09-25</lastmod>
   </url>
@@ -11,10 +15,6 @@
   <url>
     <loc>https://blog.windwords.me/2021/08/add-mathjax-rendering-function/</loc>
     <lastmod>2021-09-24</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.windwords.me/2021/09/csp-written-test/</loc>
-    <lastmod>2021-09-18</lastmod>
   </url>
   <url>
     <loc>https://blog.windwords.me/2021/08/no-more-icp-beian/</loc>
